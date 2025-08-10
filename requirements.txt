@@ -1,0 +1,46 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# HTTP Requests
+httpx==0.25.2
+requests==2.31.0
+
+# GitHub API
+PyGithub==1.59.1
+
+# Environment and Configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database (optional - for storing session data)
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+
+# Async support
+asyncio
+aiofiles==23.2.1
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Frontend templating (if using server-side rendering)
+jinja2==3.1.2
+
+# Date/time handling
+python-dateutil==2.8.2
+
+# JSON handling
+orjson==3.9.10
+
+# Testing (development)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Development tools
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
